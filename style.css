@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-backgroud{
+    /* background: rgb(255,157,170); */
+    background: linear-gradient(295deg, rgba(255,157,170,1) 0%, rgba(232,96,254,1) 45%);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.card-body{
+    width: 40%;
+    height: 99%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 35px 5px #000;
+}
+.card-header{
+    background-image: url('asset/ant-man.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+.card-avatar img{
+    display: block;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 5px #000;
+}
+
+.card-container{
+    box-sizing: border-box;
+    padding: 120px 20px 30px 20px;
+    position: relative;
+}
+.card-container-menu-bar{
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    right: 20px;
+    top: 20px;
+}
+.card-container-menu-bar span{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 5px;
+    width: 5px;
+    background-color: #000;
+    border-radius: 25px;
+    margin-bottom: 2px;
+}
+.card-container-headline{
+    text-align: center;
+}
+
+.card-container-headline h5{
+    color: #C2C2C4;
+}
+.card-counter{
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+}
+.card-counter .counter-1,
+.card-counter .counter-2{
+    width: 50%;
+    text-align: center;
+}
+.card-counter .counter-1 p:nth-child(1),
+.card-counter .counter-2 p:nth-child(1){
+    color: #2B9BF0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-counter .counter-1 p:nth-child(2),
+.card-counter .counter-2 p:nth-child(2){
+    color: #C2C2C4;
+}
+
+.card-btn button{
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #FED01A;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.card-content{
+    padding: 50px 0;
+    text-align: justify;
+    text-transform: none;
+}
